@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import Header from "../components/Header";
+
 export default function Home() {
   return (
     <div>
@@ -7,7 +9,7 @@ export default function Home() {
         <title>Hulu 2.0</title>
         <link rel="icon" href="/favicon.ico"/>
       </Head>
-      <div className="bg-red-500">Hulu Clone</div>
+      <Header/>
     </div>
   );
 }
